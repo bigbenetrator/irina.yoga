@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 body {
-   background: transparent url("../images/header_bg") repeat-x 0px 50px;
+   background: #f8f0b1 url("../images/header_bg") repeat-x 0px 50px;
    font-family: 'Forum', "Helvetica Neue", Helvetica, Arial,  sans-serif;
    /*font-size: 13pt;*/
    /*color: #324E2D;*/
@@ -153,4 +153,43 @@ a:hover {
       margin-bottom: 13px;
       margin-top: 15px;
    }
+}
+
+header {
+   h1, h2 {
+      text-align: center;
+   }
+}
+#mainPageContent {
+   background-color: #FFFFFF;
+}
+
+/* * * * * * * * * * * * * * * * * * * * */
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * */
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+   header {
+      h1, h2 {
+         text-align: left;
+      }
+   }
+
+   #mainPageContent {
+      background-color: #f8f0b1;
+   }
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * */
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+
+
 }

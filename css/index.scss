@@ -95,6 +95,23 @@ a:hover {
    color: #ffffff;
 }
 
+/* NAVBAR Main */
+#navbar-main {
+//<div class="navbar-header">
+//<a href="./" title="" class="navbar-brand">IRINA.Yoga</a>
+
+   .navbar-header a {
+      color: #5bc0de;
+
+      .navbar-brand {
+         //color: #af73cc;
+         //color: rgba(240, 211, 255, 0.69);
+         color: rgba(224, 204, 255, 0.69);
+         color: #91edeb;
+         font-size: 17pt;
+      }
+   }
+}
 
 /* Main page styles */
 #mainPageContent {

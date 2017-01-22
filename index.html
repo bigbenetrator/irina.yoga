@@ -1,10 +1,13 @@
 ---
 layout: default
-title: ЙОГА - индивидуальные и групповые занятия | Йогатерапия
-description: Групповые и индивидуацльные занятия йогой, йогатерапия.
+title: ЙОГА - индивидуальные и групповые занятия | Йогатерапия | Ирина Фалеева
+description: Групповые и индивидуацльные занятия йогой, йогатерапия с Ириной Фалеевой.
 keywords: йога, групповые зянятия йогой, индивидуальные занятия йогой, йогатерапия
 tagline: Supporting tagline
 mainMenuIndex: active
+teacherExp: 18
+contactPhone: +91 70571 65323
+googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo&ll=15.631690091804813%2C73.73565857091671&z=16
 ---
 <div id="mainPageContent">
     <div class="container">
@@ -19,9 +22,9 @@ mainMenuIndex: active
                 <ul class="nav nav-tabs no-border">
                     <li class="active">
                         <a href="#goa-siolim" data-toggle="tab" class="lead no-margin">
-                            <!--<span class="flag flag-icon flag-icon-in"></span> -->
-                            Зеленоград, Москва, Россия
-                            <h4>23/Мар/16 &ndash; 23/Авг/16</h4>
+                            <span class="flag flag-icon flag-icon-in"></span>
+                            Морджим, Гоа, Индия
+                            <h4>Ноя 2016 &ndash; Апрель 2017</h4>
                         </a>
                     </li>
                     <!--<li class="active">-->
@@ -55,23 +58,19 @@ mainMenuIndex: active
                             </div>
                             <div class="btn-group">
                                 <button type="button" class="btn btn-lg btn-default">
-                                    <i class="fa fa-lg fa-phone"></i> +7 903 7574849
+                                    <i class="fa fa-lg fa-phone"></i> {{ page.contactPhone }}
                                 </button>
                             </div>
                         </div>
                         <br>
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
-                                <!-- ASSAGAO MAP LINK-->
-                                <!--<a type="button" href="https://www.google.com/maps/d/edit?mid=zDx8XjU8TeIM.k4yChD2Jzuwg&usp=sharing" target="_blank" class="btn btn-lg btn-default" >-->
-
-                                <!-- ZELENOGRAD MAP LINK-->
-                                <a type="button" href="https://www.google.com/maps?ll=55.984596,37.214807&z=16&t=m&gl=RU&mapclient=embed&cid=6983618876315373691" target="_blank" class="btn btn-lg btn-default" >
+                                <a type="button" href="{{ page.googleMap }}" target="_blank" class="btn btn-lg btn-default" >
                                     <i class="fa fa-lg fa-bicycle "></i> <span class="lead ">Карта проезда</span>
                                 </a>
                             </div>
                             <div class="btn-group">
-                                <button disabled type="button" class="btn btn-lg btn-default" data-target="#modalAssagaoHall" data-toggle="modal">
+                                <button type="button" class="btn btn-lg btn-default" data-target="#modalMorjimHall" data-toggle="modal">
                                     <i class="fa fa-lg fa-photo "></i> <span class="lead ">Фото зала</span>
                                 </button>
                             </div>
@@ -105,17 +104,13 @@ mainMenuIndex: active
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
                                 <button type="button" class="btn btn-lg btn-default">
-                                    <i class="fa fa-lg fa-phone"></i> +7 903 7574849
+                                    <i class="fa fa-lg fa-phone"></i> {{ page.contactPhone }}
                                 </button>
                             </div>
                         </div>
                         <div class="btn-group btn-group-justified">
                             <div class="btn-group">
-                                <!-- ASSAGAO MAP LINK-->
-                                <!--<a type="button" href="https://www.google.com/maps/d/edit?mid=zDx8XjU8TeIM.k4yChD2Jzuwg&usp=sharing" target="_blank" class="btn btn-lg btn-default" >-->
-
-                                <!-- ZELENOGRAD MAP LINK-->
-                                <a type="button" href="https://www.google.com/maps?ll=55.984596,37.214807&z=16&t=m&gl=RU&mapclient=embed&cid=6983618876315373691" target="_blank" class="btn btn-lg btn-default" >
+                                <a type="button" href="{{ page.googleMap }}" target="_blank" class="btn btn-lg btn-default" >
                                     <i class="fa fa-lg fa-bicycle "></i> <span class="lead ">Карта проезда</span>
                                 </a>
                             </div>
@@ -124,7 +119,7 @@ mainMenuIndex: active
                         <div class="btn-group btn-group-justified">
 
                             <div class="btn-group">
-                                <button disabled type="button" class="btn btn-lg btn-default" data-target="#modalAssagaoHall" data-toggle="modal">
+                                <button type="button" class="btn btn-lg btn-default" data-target="#modalMorjimHall" data-toggle="modal">
                                     <i class="fa fa-lg fa-photo "></i> <span class="lead ">Фото зала</span>
                                 </button>
                             </div>
@@ -170,8 +165,8 @@ mainMenuIndex: active
                     в группе не менее 2-х недель по 3 зянятия в неделю.
                 </p>
 
-                {% include price_time_tbl_zelenograd.html %}
-                 <!--include price_time_tbl_assagao.html-->
+                <!--{% include price_time_tbl_zelenograd.html %}-->
+                 {% include price_time_tbl_morjim.html %}
 
 
             </div>
@@ -227,12 +222,12 @@ mainMenuIndex: active
             </div>
             <div class="col-lg-8 well">
                 <ul class="fa-ul">
-                    <li class="lead"><i class="fa-li fa fa-caret-right"></i> Опыт личной практики &ndash; <span class="text-muted">более 17лет</span></li>
-                    <li class="lead"><i class="fa-li fa fa-caret-right"></i> Опыт ведения преподавательской деятельности &ndash; <span class="text-muted">10лет</span></li>
+                    <li class="lead"><i class="fa-li fa fa-caret-right"></i> Опыт личной практики &ndash; <span class="text-muted">более {{ page.teacherExp }} лет</span></li>
+                    <li class="lead"><i class="fa-li fa fa-caret-right"></i> Опыт ведения преподавательской деятельности &ndash; <span class="text-muted">более 10 лет</span></li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 {% include modal_teacher.html %}
-{% include modal_assagao_hall.html %}
+{% include modal_morjim_hall.html %}

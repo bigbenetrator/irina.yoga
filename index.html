@@ -5,11 +5,12 @@ description: Групповые и индивидуацльные занятия
 keywords: йога, групповые зянятия йогой, индивидуальные занятия йогой, йогатерапия
 tagline: Supporting tagline
 mainMenuIndex: active
-teacherExp: 12
-ownExp: 19
-contactPhone1: +91 90675 40718 &ndash; Ирина
-contactPhone2: +91 83810 02173 &ndash; Лиза
-googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo&ll=15.631690091804813%2C73.73565857091671&z=16
+teacherExp: 13
+ownExp: 20
+contactPhone0: +7 903 757-48-49
+contactPhone1: +91 75073 69680 &ndash; Ирина
+contactPhone2: +91 90675 40718
+googleMap: https://l.facebook.com/l.php?u=https%3A%2F%2Fgoo.gl%2Fmaps%2F7dtCcebmL5G2%3Ffbclid%3DIwAR0UtIp44ys5Y9QKJk9D88go7_gLg75gLHAjUChfD_ki08VJvkgEQlQ_EUQ&h=AT0UJz2iSInlaE6oFQstWLa84G7OHkEiQguF7Eioec1xz7NmFBV2cF4iJ6FJC9zjVIkfq4ktfVLAnF26Mq4Ocrdm9CvX5aFuciNi5gDylbx7-4czrKZvFx2sLg
 ---
 <div id="mainPageContent">
     <div class="container">
@@ -25,8 +26,8 @@ googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo
                   <li class="active">
                       <a href="#goa-siolim" data-toggle="tab" class="lead no-margin">
                           <span class="flag flag-icon flag-icon-in"></span>
-                          Морджим, Гоа, Индия
-                          <h4>Ноя 2017 &ndash; Апрель 2018</h4>
+                          Ассагао, Гоа, Индия
+                          <h4>Ноябрь 2018 &ndash; Апрель 2019</h4>
                       </a>
                   </li>
                   <!--<li class="active">-->
@@ -59,7 +60,7 @@ googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo
                               </a>
                           </div>
                           <div class="btn-group">
-                              <button type="button" class="btn btn-lg btn-default" disabled>
+                              <button type="button" class="btn btn-lg btn-default" data-target="#modalContacts" data-toggle="modal">
                                   <i class="fa fa-lg fa-phone"></i> {{ page.contactPhone1 }}
                               </button>
                           </div>
@@ -68,11 +69,11 @@ googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo
                       <div class="btn-group btn-group-justified">
                           <div class="btn-group">
                               <a type="button" href="{{ page.googleMap }}" target="_blank" class="btn btn-lg btn-default" >
-                                  <i class="fa fa-lg fa-bicycle "></i> <span class="lead ">Карта проезда</span>
+                                  <i class="fas fa-motorcycle"></i> <span class="lead ">Карта проезда</span>
                               </a>
                           </div>
                           <div class="btn-group">
-                              <button type="button" class="btn btn-lg btn-default" data-target="#modalMorjimHall" data-toggle="modal">
+                              <button type="button" class="btn btn-lg btn-default" data-target="#modalMorjimHall" data-toggle="modal" disabled>
                                   <i class="fa fa-lg fa-photo "></i> <span class="lead ">Фото зала</span>
                               </button>
                           </div>
@@ -210,6 +211,9 @@ googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo
               <p>Интенсивность, переодичность, место проведения и время занятий подбираются индивидуально
                   <span class="text-muted">(возможно в удобном для вас месте).</span>
               </p>
+              <p>
+                  Место проведения индивидуальных занятий или занятий в мини группе до 4-5 человек: <br>верхний Мандрем, Гоа
+              </p>
           </div>
       </div>
 
@@ -234,3 +238,4 @@ googleMap: https://www.google.com/maps/d/viewer?mid=1LYhD1a-sme8xW3_jO2NIfndQxDo
 </div>
 {% include modal_teacher.html %}
 {% include modal_morjim_hall.html %}
+{% include modal_contacts.html %}
